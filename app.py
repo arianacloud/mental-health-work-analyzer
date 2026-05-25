@@ -133,6 +133,23 @@ with tab3:
     st.markdown("---")
     st.subheader("The Right Conclusion")
     st.success("Employees who have not sought treatment are at significantly higher risk. The solution is NOT for HR to ask about treatment history. The solution is building an environment where employees voluntarily seek help through accessible care options, protected anonymity, and a culture where mental health is treated like physical health.")
+
+    st.markdown("---")
+    st.subheader("The Numbers Behind the Story")
+    col1, col2 = st.columns(2)
+    with col1:
+        st.markdown("**Treatment History**")
+        st.error("Having sought treatment: +40% correlation with work interference")
+        st.success("No treatment history: -40% correlation with work interference")
+        st.markdown("*Strongest predictor in the entire dataset*")
+    with col2:
+        st.markdown("**Family History**")
+        st.error("Family history of mental illness: +23% correlation with work interference")
+        st.success("No family history: -23% correlation with work interference")
+        st.markdown("*Second strongest predictor after treatment*")
+    st.warning("These two factors explain most of the 0.127 AUC gap between Full Model (0.760) and HR Model (0.633). The most predictive information is also the most sensitive.")
+
     st.markdown("---")
     st.info("Privacy Note: This tool only uses workplace policy factors HR can ethically observe and control.")
     st.caption("Based on OSMI Mental Health in Tech Survey 2014 | HR Model AUC: 0.633 | Full Model AUC: 0.760")
+
