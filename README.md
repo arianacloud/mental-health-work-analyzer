@@ -1,4 +1,4 @@
-# Mental Health Work Interference Analyzer
+ Analyzer
 
 ## Overview
 
