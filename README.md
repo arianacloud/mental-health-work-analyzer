@@ -1,4 +1,4 @@
- Analyzer
+# Mental Health Work Interference Analyzer
 
 ## Overview
 
@@ -62,19 +62,19 @@ The dashboard includes four pages:
 
 ### Executive Dashboard
 
-![Executive Dashboard](assets/executive_dashboard.png)
+![Executive Dashboard](./executive_dashboard.PNG)
 
 ### Employee Insights
 
-![Employee Insights](assets/employee_insights.png)
+![Employee Insights](./employee_insights.PNG)
 
 ### Machine Learning Performance
 
-![Machine Learning Performance](assets/ml_performance.png)
+![Machine Learning Performance](./ml_performance.PNG)
 
 ### Feature Importance and HR Insights
 
-![Feature Importance and HR Insights](assets/feature_importance_hr.png)
+![Feature Importance and HR Insights](./feature_importance_hr.PNG)
 
 ## Technologies
 
